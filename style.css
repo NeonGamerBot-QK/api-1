@@ -1,0 +1,35 @@
+h1 {text-align: center;}
+body {
+margin:0;
+font-family: sans-serif;
+animation: change 10s infinite;
+}
+@keyframes change{
+    0%{background-color: #003300; }
+    25%{background-color: #000000;}
+    50%{background-color: #260d0d;}
+    75%{background-color: #000099;}
+    100%{background-color: #141f1f;}
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: blue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
